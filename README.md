@@ -17,10 +17,10 @@ Really short script to index new media files on a synology.
 5. Add run of the script every 2 minutes
 
     ```
-        */2 * * * * root sh /path/to/indexing.sh
+    */2 * * * * root sh /path/to/indexing.sh
     ```
 6. Restart Crontab
 
     ```
-        $ synoservice -restart crond
+    $ synoservice -restart crond
     ```
